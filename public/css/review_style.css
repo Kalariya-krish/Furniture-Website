@@ -1,0 +1,96 @@
+/* Your CSS styles from previous examples */
+
+.reviews {
+    padding: 50px;
+    text-align: center;
+}
+
+.reviews h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.review {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.review-content{
+    margin: 20px;
+}
+.review img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #f5f5f5;
+}
+
+.review-text {
+    flex: 1;
+    text-align: left;
+}
+
+.review h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.review p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.stars {
+    font-size: 1.2rem;
+    color: #f39c12;
+}
+
+.date {
+    font-size: 1rem;
+    color: #777;
+}
+
+.share-review {
+    padding: 50px;
+    text-align: center;
+}
+
+.share-review h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.share-review p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #f39c12;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+}

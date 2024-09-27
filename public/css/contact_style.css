@@ -1,0 +1,123 @@
+
+/*---------------------------------------
+  CUSTOM PROPERTIES ( VARIABLES )             
+-----------------------------------------*/
+:root {
+    --white-color:                  #ffffff;
+    --primary-color:                #ffd74f;
+    --secondary-color:              #f65129;
+    --section-bg-color:             #f9f9f9;
+    --site-footer-bg-color:         #36363e;
+    --custom-btn-bg-color:          #00a05d;
+    --dark-color:                   #000000;
+    --p-color:                      #717275;
+    --border-color:                 #e9eaeb;
+  
+    --twitter-color:                #1da1f2;
+    --facebook-color:               #1877f2;
+    --instagram-color:              #c13584;
+    --pinterest-color:              #e60023;
+    --whatsapp-color:               #128c7e;
+  
+    --body-font-family:             'League Spartan', sans-serif;
+  
+    --h1-font-size:                 62px;
+    --h2-font-size:                 48px;
+    --h3-font-size:                 36px;
+    --h4-font-size:                 32px;
+    --h5-font-size:                 24px;
+    --h6-font-size:                 22px;
+    --p-font-size:                  20px;
+    --btn-font-size:                16px;
+    --copyright-font-size:          14px;
+  
+    --border-radius-large:          100px;
+    --border-radius-medium:         20px;
+    --border-radius-small:          10px;
+  
+    --font-weight-thin:             100;
+    --font-weight-light:            300;
+    --font-weight-normal:           400;
+    --font-weight-semibold:         600;
+    --font-weight-bold:             700;
+  }
+
+
+
+/*---------------------------------------
+  CONTACT               
+-----------------------------------------*/
+.contact-section {
+    background: var(--white-color);
+    margin-top: -200px;
+  }
+  
+  .contact-form {
+    background: var(--section-bg-color);
+    border-radius: var(--border-radius-medium);
+    padding: 20px;
+  }
+  
+  .contact-form label {
+    font-weight: var(--font-weight-semibold);
+  }
+  
+  .google-map {
+    display: block;
+    border-radius: var(--border-radius-medium);
+  }
+  
+  
+  /*---------------------------------------
+    CUSTOM FORM               
+  -----------------------------------------*/
+  .custom-form .input-group {
+    background-color: var(--white-color);
+    border: 2px solid var(--border-color);
+    border-radius: .25rem;
+    margin-bottom: 24px;
+    padding-left: 20px;
+  }
+  
+  .custom-form .textarea-group label {
+    margin-top: 13px;
+  }
+  
+  .custom-form label {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+  
+  .custom-form .form-control {
+    background-color: var(--white-color);
+    box-shadow: none;
+    border: 0;
+    color: var(--p-color);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    outline: none;
+  }
+  
+  .custom-form .form-control:hover,
+  .custom-form .form-control:focus {
+    border-color: var(--secondary-color);
+  }
+  
+  .custom-form button[type="submit"] {
+    background: var(--secondary-color);
+    border: none;
+    color: var(--white-color);
+    padding: 10px 30px;
+    width: 150px;
+    font-size: var(--p-font-size);
+    font-weight: var(--font-weight-normal);
+    transition: all 0.3s;
+    margin-bottom: 0;
+  }
+  
+  .custom-form button[type="submit"]:hover,
+  .custom-form button[type="submit"]:focus {
+    background: var(--primary-color);
+    border-color: transparent;
+  }
+  
